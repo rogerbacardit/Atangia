@@ -450,7 +450,7 @@ body a:hover {
   padding-top: 100px;
 }
 #middle #granja {
-  background: url('../images/granja.jpg?1311342643') rgba(0, 0, 0, 0.5);
+  background: url(/public/images/granja.jpg) rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;
@@ -602,16 +602,4 @@ ul {
 #middle h1 {
   margin-top: 270px;
   text-shadow: black 0px 0px 4px;
-}
-
-.gallery {
-  height: 50px;
-  background: black;
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 290px;
-}
-* html .gallery {
-  overflow-x: hidden;
 }
