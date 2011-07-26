@@ -3,10 +3,14 @@
 @import blueprint
 @import blueprint/scaffolding
 @import compass/css3
+@import "compass/css3/transform"
+@import "compass/typography/lists/bullets"
 
 +global-reset
 
 body
+  padding: 10px
+  text-decoration: none
   +blueprint-typography(true)
   +blueprint-utilities
   +blueprint-debug
@@ -14,10 +18,165 @@ body
   // Remove the scaffolding when you're ready to start doing visual design.
   // Or leave it in if you're happy with how blueprint looks out-of-the-box
   +blueprint-scaffolding
-  padding: 10px
+  a
+    text-decoration: none
+    color: rgba(white, 0.6)
+    font-weight: bold
+    &:visited
+      color: rgba(white, 0.6)
+    &:hover
+      color: white
 
 #container
   +container
 #content
   +column($blueprint-grid-columns)
 
+#bg
+  position: fixed
+  top: 0
+  left: 0
+  /* Preserve aspet ratio
+  min-width: 100%
+  min-height: 100%
+
+#opacity_box
+  height: 550px
+  margin-top: 10px
+  position: relative
+  background: rgba(0,0,0, 0.5)
+  padding: 30px
+  .logo
+    height: 30px
+    float: left
+    h1
+      color: rgba(255,255,255, 0.6)
+      text-decoration: none
+      padding: 20px
+      float: left
+  .nav
+    float: right
+    font-size: 20px
+    padding-top: 20px
+    ul
+      +horizontal-list
+      li
+        margin-left: 20px
+
+#middle
+  height: 95%
+  padding-top: 100px
+  #granja
+    background: image-url("granja.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    margin-right: 25px
+    width: 320px
+    margin-bottom: 30px
+    float: left
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+  #barbacoa
+    background: image-url("BBQ.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    margin-right: 25px
+    width: 320px
+    margin-bottom: 30px
+    float: left
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+
+  #shop
+    background: image-url("shop.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    width: 320px
+    margin-bottom: 30px
+    float: right
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+
+  h1
+    margin-top: 270px
+    text-shadow: black 0px 0px 4px
+#footer
+  height: 5%
+  float: left
+  position: absolute
+  margin-bottom: 0px
+  +opacity(6)
+  +horizontal-list
+ul
+  padding-top: 5px
+  li
+.place
+  height: 18px
+  width: 20px
+  background: image-url("places.png")
+  background-repeat: no-repeat
+  +opacity(.6)
+
+#middle
+  height: 95%
+  padding-top: 100px
+  li
+    +no-bullet
+  #target
+    background: image-url("target.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    margin-right: 25px
+    width: 320px
+    margin-bottom: 30px
+    float: left
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+
+  #espais
+    background: image-url("BBQ.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    margin-right: 25px
+    width: 320px
+    margin-bottom: 30px
+    float: left
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+
+  #gallery
+    background: image-url("shop.jpg") rgba(black, 0.5)
+    background-repeat: no-repeat
+    height: 400px
+    width: 320px
+    margin-bottom: 30px
+    float: right
+    padding: 20px
+    font-weight: bold
+    color: rgba(white, 0.5)
+    &:hover
+      color: white
+
+  h1
+    margin-top: 270px
+    text-shadow: black 0px 0px 4px
+
+.gallery
+  height: 50px
+  background: black
+  +column(6)
