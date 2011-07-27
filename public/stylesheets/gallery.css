@@ -450,7 +450,7 @@ body a:hover {
   padding-top: 100px;
 }
 #middle #granja {
-  background: url(/public/images/granja.jpg) rgba(0, 0, 0, 0.5);
+  background: url('../images/granja.jpg?1311342643') rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;
@@ -604,7 +604,7 @@ ul {
   text-shadow: black 0px 0px 4px;
 }
 
-.gallery {
+#gallery {
   background: red;
   height: 50px;
   width: 50px;
