@@ -3,10 +3,10 @@ html
     title Example title
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/gallery.css"
-    script type="text/javascript" src="./javascripts/jquery_162.js"
-    script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"
-    script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"
-    link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen"
+    script type="text/javascript" src="../javascripts/jquery_162.js"
+    script type="text/javascript" src="../fancybox/jquery.mousewheel-3.0.4.pack.js"
+    script type="text/javascript" src="../fancybox/jquery.fancybox-1.3.4.pack.js"
+    link rel="stylesheet" type="text/css" href="../fancybox/jquery.fancybox-1.3.4.css" media="screen"
     script type="text/javascript"
 
 
@@ -15,25 +15,4 @@ html
       #content
         img src="/images/bg.jpg" class="bg"
         == render partial: "content_box_gallery"
-//
-  javascript:
-    $(document).ready(function() {
-      $("a.image").fancybox({
-        'titlePosition'	:	'over',
-        'onComplete'	:	function() {
-          $("#fancybox-wrap").hover(function() {
-            $("#fancybox-title").show();
-          }, function() {
-            $("#fancybox-title").hide();
-          });
-        }
-      });
-      /* Apply fancybox to multiple items */
-      $("a.group").fancybox({
-        'transitionIn'  : 'elastic',
-        'transitionOut' : 'elastic',
-        'speedIn'   : 600,
-        'speedOut'    : 200,
-        'overlayShow' : false
-      });
-    });
+
