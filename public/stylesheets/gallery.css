@@ -465,7 +465,7 @@ body a:hover {
   color: white;
 }
 #middle #barbacoa {
-  background: url('../images/BBQ.jpg?1311342484') rgba(0, 0, 0, 0.5);
+  background: url('../images/BBQ.jpg') rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;
@@ -571,7 +571,7 @@ ul {
   color: white;
 }
 #middle #espais {
-  background: url('../images/BBQ.jpg?1311342484') rgba(0, 0, 0, 0.5);
+  background: url('../images/BBQ.jpg') rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;
@@ -656,17 +656,24 @@ ul {
   margin-left: 20px;
 }
 
-.pic {
+#pic_container {
+  padding: 40px;
+  width: 100%;
+}
+#pic_container .pic {
   background: red;
-  margin-right: 30px;
+  margin-right: 65px;
   width: 220px;
   margin-bottom: 30px;
   float: left;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
 }
-
-.pic_last {
+#pic_container .pic a {
+  height: 150px;
+  width: 150px;
+}
+#pic_container .pic_last {
   background: red;
   width: 220px;
   margin-bottom: 30px;
