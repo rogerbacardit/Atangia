@@ -12,7 +12,42 @@
         a href="#" CONTACTE
   #middle
     .pic
+      a id="/images/BBQ.jpg" href="/images/BBQ.jpg" src="/images/BBQ.jpg" alt="borreedd"
+        img alt="example2" src="/images/BBQ.jpg"
+
+
     .pic
     .pic
     .pic_last
     .pic
+    .pic
+    .pic
+    .pic_last
+    .pic
+    .pic
+    .pic
+    .pic_last
+#footer
+  == render partial: "/footer"
+
+javascript:
+  $(document).ready(function() {
+    $("a.image").fancybox({
+      'titlePosition'	:	'over',
+      'onComplete'	:	function() {
+        $("#fancybox-wrap").hover(function() {
+          $("#fancybox-title").show();
+        }, function() {
+          $("#fancybox-title").hide();
+        });
+      }
+    });
+    /* Apply fancybox to multiple items */
+    $("a.group").fancybox({
+      'transitionIn'  : 'elastic',
+      'transitionOut' : 'elastic',
+      'speedIn'   : 600,
+      'speedOut'    : 200,
+      'overlayShow' : false
+    });
+  });
