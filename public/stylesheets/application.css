@@ -384,7 +384,7 @@ body a:hover {
   overflow-x: hidden;
 }
 
-#bg {
+.bg {
   position: fixed;
   top: 0;
   left: 0;
