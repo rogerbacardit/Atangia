@@ -658,16 +658,17 @@ ul {
 
 #pic_container {
   padding: 40px;
-  width: 100%;
+  width: 1130px;
 }
 #pic_container .pic {
   background: red;
-  margin-right: 65px;
+  margin-right: 50px;
   width: 220px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   float: left;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
+  border: solid 4px white;
 }
 #pic_container .pic a {
   height: 150px;
@@ -676,8 +677,9 @@ ul {
 #pic_container .pic_last {
   background: red;
   width: 220px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   float: left;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
+  border: solid 4px white;
 }
