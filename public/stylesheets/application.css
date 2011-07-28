@@ -410,19 +410,22 @@ body a:hover {
   padding: 20px;
   float: left;
 }
-#opacity_box .nav {
+#opacity_box .navigation {
+  width: 1130px;
+}
+#opacity_box .navigation .nav {
   float: right;
   font-size: 20px;
   padding-top: 20px;
 }
-#opacity_box .nav ul {
+#opacity_box .navigation .nav ul {
   margin: 0;
   padding: 0;
   border: 0;
   overflow: hidden;
   *zoom: 1;
 }
-#opacity_box .nav ul li {
+#opacity_box .navigation .nav ul li {
   list-style-image: none;
   list-style-type: none;
   margin-left: 0px;
@@ -432,17 +435,60 @@ body a:hover {
   padding-left: 4px;
   padding-right: 4px;
 }
-#opacity_box .nav ul li:first-child, #opacity_box .nav ul li.first {
+#opacity_box .navigation .nav ul li:first-child, #opacity_box .navigation .nav ul li.first {
   padding-left: 0;
 }
-#opacity_box .nav ul li:last-child {
+#opacity_box .navigation .nav ul li:last-child {
   padding-right: 0;
 }
-#opacity_box .nav ul li.last {
+#opacity_box .navigation .nav ul li.last {
   padding-right: 0;
 }
-#opacity_box .nav ul li {
+#opacity_box .navigation .nav ul li {
   margin-left: 20px;
+}
+
+.sub_nav {
+  width: 1130px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.sub_nav ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+.sub_nav ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.sub_nav ul li:first-child, .sub_nav ul li.first {
+  padding-left: 0;
+}
+.sub_nav ul li:last-child {
+  padding-right: 0;
+}
+.sub_nav ul li.last {
+  padding-right: 0;
+}
+.sub_nav ul li {
+  margin-left: 20px;
+  font-size: 14px;
+  color: black;
+}
+.sub_nav ul:visited {
+  color: red;
 }
 
 #middle {
@@ -465,7 +511,7 @@ body a:hover {
   color: white;
 }
 #middle #barbacoa {
-  background: url('../images/BBQ.jpg?1311342484') rgba(0, 0, 0, 0.5);
+  background: url('../images/BBQ.jpg') rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;
@@ -571,7 +617,7 @@ ul {
   color: white;
 }
 #middle #espais {
-  background: url('../images/BBQ.jpg?1311342484') rgba(0, 0, 0, 0.5);
+  background: url('../images/BBQ.jpg') rgba(0, 0, 0, 0.5);
   background-repeat: no-repeat;
   height: 400px;
   margin-right: 25px;

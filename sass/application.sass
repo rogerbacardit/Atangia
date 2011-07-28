@@ -54,14 +54,32 @@ body
       text-decoration: none
       padding: 20px
       float: left
-  .nav
-    float: right
-    font-size: 20px
-    padding-top: 20px
-    ul
-      +horizontal-list
-      li
-        margin-left: 20px
+  .navigation
+    width: 1130px
+    .nav
+      float: right
+      font-size: 20px
+      padding-top: 20px
+      ul
+        +horizontal-list
+        li
+          margin-left: 20px
+
+.sub_nav
+  width: 1130px
+  margin-top: 20px
+  margin-left: 20px
+  float: left
+  font-size: 20px
+  padding-top: 20px
+  ul
+    +horizontal-list
+    li
+      margin-left: 20px
+      font-size: 14px
+      color: black
+    &:visited
+      color: red
 
 #middle
   height: 95%
