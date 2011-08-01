@@ -16,6 +16,40 @@
   margin-right: 0px;
 }
 
+#middle #espais_galeria {
+  height: 440px;
+  width: 495px;
+  background: red;
+  margin-right: 50px;
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+#middle #espais_galeria h3 {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+#middle #text_espais {
+  height: 440px;
+  width: 495px;
+  background: red;
+  position: relative;
+  float: left;
+  padding: 20px;
+}
+#middle #text_espais h3 {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+
+#espais_img {
+  width: 100%;
+  height: 300px;
+  background: green;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
