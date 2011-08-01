@@ -15,6 +15,7 @@ Author URI: http://dev7studios.com
     margin:0 auto;
     padding-top:18px;
     position:relative;
+    float:left;
 }
 
 .theme-orman .nivoSlider {

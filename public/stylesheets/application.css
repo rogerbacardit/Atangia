@@ -16,26 +16,17 @@
   margin-right: 0px;
 }
 
-#middle #espais_galeria {
-  height: 440px;
-  width: 495px;
-  background: red;
-  margin-right: 50px;
-  position: relative;
-  float: left;
-  padding: 20px;
-}
-#middle #espais_galeria h3 {
+#middle h3 {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
   padding: 10px;
 }
 #middle #text_espais {
   height: 440px;
-  width: 495px;
-  background: red;
+  width: 360px;
+  background: black;
   position: relative;
-  float: left;
+  float: right;
   padding: 20px;
 }
 #middle #text_espais h3 {
